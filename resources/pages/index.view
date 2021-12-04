@@ -1,6 +1,7 @@
 <svg viewport-fill="#000000">
   <textarea fill="#FFFFFF" x="10%" y="10%" width="80%" height="30" font-size="24" font-family="System-Bold" text-transform="uppercase" text-anchor="middle" text-buffer="Reanimatie" />
-  <use href="#button" fill="#FA4D61" x="10%" y="50%-54" width="80%">
+  <use href="#button" fill="#FA4D61" x="10%" y="50%-54" width="80%" class="fill-up-button">
+    <set href="button-background" attributeName="fill" to="#FA4D61" />
     <set href="text" attributeName="text-buffer" to="Start stappenplan" />
     <set href="handle" attributeName="id" to="detail-button" />
   </use>
