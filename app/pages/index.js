@@ -1,30 +1,23 @@
 import document from 'document';
 import { switchPage } from '../navigation';
 
-let $buttonDetail = null;
-let $buttonReplace = null;
-
-function doSomething() {
-  console.log('hallo index');
-}
+let $buttonSteps = null;
+let $buttonCpr = null;
 
 export function destroy() {
-  console.log('destroy index page');
-  $buttonDetail = null;
-  $buttonReplace = null;
+  $buttonSteps = null;
+  $buttonCpr = null;
 }
 
 export function init() {
   console.log('init index page');
-  $buttonDetail = document.getElementById('detail-button');
-  $buttonReplace = document.getElementById('replace-button');
+  $buttonSteps = document.getElementById('steps-button');
+  $buttonCpr = document.getElementById('cpr-button');
 
-  $buttonDetail.onclick = () => {
-    switchPage('detail', true);
+  $buttonSteps.onclick = () => {
+    switchPage('steps/step-1', true);
   };
-  $buttonReplace.onclick = () => {
-    switchPage('replace');
+  $buttonCpr.onclick = () => {
+    switchPage('cpr');
   };
-
-  doSomething();
 }

@@ -1,0 +1,29 @@
+<svg viewport-fill="#000000">
+  <use class="pane" href="#step-visual">
+    <set href="number" attributeName="text-buffer" to="6" />
+    <set href="title" attributeName="text-buffer" to="Beadem 2 keer" />
+    <set href="visual" attributeName="href" to="step-6-a.png" />
+    <set href="text" attributeName="text-buffer" to="Kantel het hoofd naar achter en til de kin op." />
+  </use>
+  <use class="pane" href="#step-visual">
+    <set href="number" attributeName="text-buffer" to="6" />
+    <set href="title" attributeName="text-buffer" to="Beadem 2 keer" />
+    <set href="visual" attributeName="href" to="step-6-b.png" />
+    <set href="text" attributeName="text-buffer" to="Knijp de neus dicht met je duim en wijsvinger." />
+  </use>
+  <use class="pane" href="#step-visual">
+    <set href="number" attributeName="text-buffer" to="6" />
+    <set href="title" attributeName="text-buffer" to="Beadem 2 keer" />
+    <set href="visual" attributeName="href" to="step-6-c.png" />
+    <set href="text" attributeName="text-buffer" to="Blaas 2x 1 sec lucht in de mond." />
+  </use>
+  <section id="dots" width="40" height="8" x="50%-20" y="100%-30">
+    <circle fill="white" cx="0" cy="4" r="4" />
+    <circle class="pane-circle" fill="black" cx="0" cy="4" r="3" />
+    <circle fill="white" cx="50%-4" cy="4" r="4" />
+    <circle class="pane-circle" fill="black" cx="50%-4" cy="4" r="3" />
+    <circle fill="white" cx="100%-8" cy="4" r="4" />
+    <circle class="pane-circle" fill="black" cx="100%-8" cy="4" r="3" />
+  </section>
+  <rect id="swipe-plane" fill="black" x="0" y="0" width="100%" height="100%" opacity="0" pointer-events="visible"/>
+</svg>

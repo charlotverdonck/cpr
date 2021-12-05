@@ -1,0 +1,9 @@
+<defs>
+  <symbol id="step-visual" width="100%" height="100%">
+    <circle fill="white" cx="50%" cy="30" r="12" />
+    <text id="number" fill="black" x="50%" y="35" font-size="18" font-family="System-Regular" text-anchor="middle" text-transform="uppercase" text-buffer="1" />
+    <text id="title" fill="white" x="50%" y="80" font-size="24" font-family="System-Bold" text-anchor="middle" text-buffer="Title" />
+    <image id="visual" x="50%-60" y="50%-60" width="120" height="120" href="step-1.png" />
+    <textarea id="text" fill="white" x="30" y="50%+70" width="100%-60" height="50%-100" font-size="18" font-family="System-Regular" text-anchor="middle" text-buffer="Text" />
+  </symbol>
+</defs>
