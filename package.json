@@ -1,5 +1,5 @@
 {
-  "name": "fitbit-full-example",
+  "name": "cpr",
   "version": "0.1.0",
   "private": true,
   "license": "UNLICENSED",
@@ -16,9 +16,9 @@
   },
   "fitbit": {
     "appType": "app",
-    "appDisplayName": "Fitbit Full Example",
+    "appDisplayName": "CPR",
     "iconFile": "resources/icon.png",
-    "wipeColor": "#ffffff",
+    "wipeColor": "#000000",
     "requestedPermissions": [],
     "buildTargets": [
       "atlas",

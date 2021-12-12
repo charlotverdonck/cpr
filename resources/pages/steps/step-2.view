@@ -1,9 +1,9 @@
 <svg viewport-fill="#000000">
   <use href="#step-visual">
     <set href="number" attributeName="text-buffer" to="2" />
-    <set href="title" attributeName="text-buffer" to="Bel 112" />
+    <set href="title" attributeName="text-buffer" to="_step 2 title" />
     <set href="visual" attributeName="href" to="step-2.png" />
-    <set href="text" attributeName="text-buffer" to="Bel 112 en zet de telefoon op luidspreker." />
+    <set href="text" attributeName="text-buffer" to="_step 2 text" />
   </use>
   <rect id="swipe-plane" fill="black" x="0" y="0" width="100%" height="100%" opacity="0" pointer-events="visible"/>
 </svg>

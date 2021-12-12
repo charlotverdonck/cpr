@@ -1,0 +1,62 @@
+msgid "cpr"
+msgstr "CPR"
+
+msgid "start step by step"
+msgstr "Start step by step"
+
+msgid "start cpr"
+msgstr "Start CPR"
+
+msgid "step 1 title"
+msgstr "Check consciousness"
+
+msgid "step 1 text"
+msgstr "Shake shoulders carefully and speak to the victim. Check their breathing."
+
+msgid "step 2 title"
+msgstr "Call 911"
+
+msgid "step 2 text"
+msgstr "Call 911 and put your phone on speaker."
+
+msgid "step 3 title"
+msgstr "Get AED"
+
+msgid "step 3 text"
+msgstr "Ask someone to search an AED."
+
+msgid "step 4 title"
+msgstr "Clear the airways"
+
+msgid "step 4 text a"
+msgstr "Put the victim at their back."
+
+msgid "step 4 text b"
+msgstr "Place one hand on the forhead and the other one at the chin."
+
+msgid "step 4 text c"
+msgstr "Put the head to the back."
+
+msgid "step 5 title"
+msgstr "Start 30 chest compressions"
+
+msgid "step 5 text a"
+msgstr "Place your hands above each other on their chest. Keep the fingers of your lowest hand upwards."
+
+msgid "step 5 text b"
+msgstr "Push the sternum vertically 5 to 6 cm."
+
+msgid "step 5 text c"
+msgstr "Reanimate at the rythm of the timer."
+
+msgid "step 6 title"
+msgstr "Resuscitate 2 times"
+
+msgid "step 6 text a"
+msgstr "Lift the head back and tilt the chin."
+
+msgid "step 6 text b"
+msgstr "Pinch the nose with your thumb and finger."
+
+msgid "step 6 text c"
+msgstr "Blow air into the mouth. Repeat thise one more time."

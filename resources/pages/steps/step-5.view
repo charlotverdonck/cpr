@@ -1,23 +1,23 @@
 <svg viewport-fill="#000000">
   <use class="pane" href="#step-visual">
     <set href="number" attributeName="text-buffer" to="5" />
-    <set href="title" attributeName="text-buffer" to="Start 30 borstcompressies" />
+    <set href="title" attributeName="text-buffer" to="_step 5 title" />
     <set href="visual" attributeName="href" to="step-5-a.png" />
-    <set href="text" attributeName="text-buffer" to="Leg je handen op de borstkas en sla je vingers haaks in elkaar." />
+    <set href="text" attributeName="text-buffer" to="_step 5 text a" />
   </use>
   <use class="pane" href="#step-visual">
     <set href="number" attributeName="text-buffer" to="5" />
-    <set href="title" attributeName="text-buffer" to="Start 30 borstcompressies" />
+    <set href="title" attributeName="text-buffer" to="_step 5 title" />
     <set href="visual" attributeName="href" to="step-5-b.png" />
-    <set href="text" attributeName="text-buffer" to="Druk het borstbeen 5 tot 6 cm diep." />
+    <set href="text" attributeName="text-buffer" to="_step 5 text b" />
   </use>
   <use class="pane" href="#step-visual">
     <set href="number" attributeName="text-buffer" to="5" />
-    <set href="title" attributeName="text-buffer" to="Start 30 borstcompressies" />
+    <set href="title" attributeName="text-buffer" to="_step 5 title" />
     <set href="visual" attributeName="href" to="step-5-c.png" />
-    <set href="text" attributeName="text-buffer" to="Reanimeer op het ritme van de teller." />
+    <set href="text" attributeName="text-buffer" to="_step 5 text c" />
   </use>
-  <section id="dots" width="40" height="8" x="50%-20" y="100%-30">
+  <section id="dots" width="40" height="8" x="50%-20" y="100%-20">
     <circle fill="white" cx="0" cy="4" r="4" />
     <circle class="pane-circle" fill="black" cx="0" cy="4" r="3" />
     <circle fill="white" cx="50%-4" cy="4" r="4" />

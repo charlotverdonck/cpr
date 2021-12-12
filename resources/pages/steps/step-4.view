@@ -1,23 +1,23 @@
 <svg viewport-fill="#000000">
   <use class="pane" href="#step-visual">
     <set href="number" attributeName="text-buffer" to="4" />
-    <set href="title" attributeName="text-buffer" to="Maak de luchtwegen vrij" />
+    <set href="title" attributeName="text-buffer" to="_step 4 title" />
     <set href="visual" attributeName="href" to="step-4-a.png" />
-    <set href="text" attributeName="text-buffer" to="Leg het slachtoffer op zijn rug." />
+    <set href="text" attributeName="text-buffer" to="_step 4 text a" />
   </use>
   <use class="pane" href="#step-visual">
     <set href="number" attributeName="text-buffer" to="4" />
-    <set href="title" attributeName="text-buffer" to="Maak de luchtwegen vrij" />
+    <set href="title" attributeName="text-buffer" to="_step 4 title" />
     <set href="visual" attributeName="href" to="step-4-b.png" />
-    <set href="text" attributeName="text-buffer" to="Plaats één hand op het voorhoofd en plaats de andere op de kin." />
+    <set href="text" attributeName="text-buffer" to="_step 4 text b" />
   </use>
   <use class="pane" href="#step-visual">
     <set href="number" attributeName="text-buffer" to="4" />
-    <set href="title" attributeName="text-buffer" to="Maak de luchtwegen vrij" />
+    <set href="title" attributeName="text-buffer" to="_step 4 title" />
     <set href="visual" attributeName="href" to="step-4-c.png" />
-    <set href="text" attributeName="text-buffer" to="Kantel het hoofd naar achter." />
+    <set href="text" attributeName="text-buffer" to="_step 4 text c" />
   </use>
-  <section id="dots" width="40" height="8" x="50%-20" y="100%-30">
+  <section id="dots" width="40" height="8" x="50%-20" y="100%-20">
     <circle fill="white" cx="0" cy="4" r="4" />
     <circle class="pane-circle" fill="black" cx="0" cy="4" r="3" />
     <circle fill="white" cx="50%-4" cy="4" r="4" />

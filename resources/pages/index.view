@@ -1,12 +1,12 @@
 <svg viewport-fill="#000000">
-  <textarea fill="#FFFFFF" x="10%" y="10%" width="80%" height="30" font-size="24" font-family="System-Bold" text-transform="uppercase" text-anchor="middle" text-buffer="Reanimatie" />
+  <textarea fill="#FFFFFF" x="10%" y="10%" width="80%" height="30" font-size="24" font-family="System-Bold" text-transform="uppercase" text-anchor="middle" text-buffer="_cpr" />
   <use href="#button" fill="#FA4D61" x="10%" y="50%-54" width="80%" class="fill-up-button">
     <set href="button-background" attributeName="fill" to="#FA4D61" />
-    <set href="text" attributeName="text-buffer" to="Start stappenplan" />
+    <set href="text" attributeName="text-buffer" to="_start step by step" />
     <set href="handle" attributeName="id" to="steps-button" />
   </use>
   <use href="#button" fill="#FA4D61" x="10%" y="50%+6" width="80%">
-    <set href="text" attributeName="text-buffer" to="Start reanimatie" />
+    <set href="text" attributeName="text-buffer" to="_start cpr" />
     <set href="handle" attributeName="id" to="cpr-button" />
   </use>
 </svg>

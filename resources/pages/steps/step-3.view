@@ -1,9 +1,9 @@
 <svg viewport-fill="#000000">
   <use href="#step-visual">
     <set href="number" attributeName="text-buffer" to="3" />
-    <set href="title" attributeName="text-buffer" to="Haal AED" />
+    <set href="title" attributeName="text-buffer" to="_step 3 title" />
     <set href="visual" attributeName="href" to="step-3.png" />
-    <set href="text" attributeName="text-buffer" to="Vraag iemand om een AEED te zoeken." />
+    <set href="text" attributeName="text-buffer" to="_step 3 text" />
   </use>
   <rect id="swipe-plane" fill="black" x="0" y="0" width="100%" height="100%" opacity="0" pointer-events="visible"/>
 </svg>

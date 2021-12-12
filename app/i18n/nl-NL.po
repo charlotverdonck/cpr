@@ -1,0 +1,62 @@
+msgid "cpr"
+msgstr "Reanimatie"
+
+msgid "start step by step"
+msgstr "Start stappenplan"
+
+msgid "start cpr"
+msgstr "Start reanimatie"
+
+msgid "step 1 title"
+msgstr "Controleer het bewustzijn"
+
+msgid "step 1 text"
+msgstr "Schud voorzichtig aan de schouders, spreek het slachtoffer aan en controleer de ademhaling."
+
+msgid "step 2 title"
+msgstr "Bel 112"
+
+msgid "step 2 text"
+msgstr "Bel 112 en zet de telefoon op luidspreker."
+
+msgid "step 3 title"
+msgstr "Haal AED"
+
+msgid "step 3 text"
+msgstr "Vraag iemand om een AED te zoeken."
+
+msgid "step 4 title"
+msgstr "Maak de luchtwegen vrij"
+
+msgid "step 4 text a"
+msgstr "Leg het slachtoffer op zijn rug."
+
+msgid "step 4 text b"
+msgstr "Plaats één hand op het voorhoofd en plaats de andere op de kin."
+
+msgid "step 4 text c"
+msgstr "Kantel het hoofd naar achter."
+
+msgid "step 5 title"
+msgstr "Start 30 borstcompressies"
+
+msgid "step 5 text a"
+msgstr "Leg je handen op de borstkas en sla je vingers haaks in elkaar."
+
+msgid "step 5 text b"
+msgstr "Druk het borstbeen 5 tot 6 cm diep."
+
+msgid "step 5 text c"
+msgstr "Reanimeer op het ritme van de teller."
+
+msgid "step 6 title"
+msgstr "Beadem 2 keer"
+
+msgid "step 6 text a"
+msgstr "Kantel het hoofd naar achter en til de kin op."
+
+msgid "step 6 text b"
+msgstr "Knijp de neus dicht met je duim en wijsvinger."
+
+msgid "step 6 text c"
+msgstr "Blaas 2x 1 sec lucht in de mond."
