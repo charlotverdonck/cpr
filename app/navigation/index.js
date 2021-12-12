@@ -1,4 +1,6 @@
 import document from 'document';
+import { me as device } from 'device';
+if (!device.screen) device.screen = { width: 348, height: 250 };
 
 let pages = {};
 
@@ -69,47 +71,55 @@ export function listenToHorizontalCarouselAndVerticalSwipeEvent(
   $swipePlane,
   nextPage,
   previousPage,
-  $panes,
+  $pane,
   $paneCircles,
 ) {
   let x = 0;
   let y = 0;
   let currentIndex = 0;
   const render = () => {
-    for (let i = 0; i < $panes.length; i++) {
-      $panes[i].style.opacity = 0;
+    for (let i = 0; i < $paneCircles.length; i++) {
       $paneCircles[i].style.fill = 'black';
     }
 
-    $panes[currentIndex].style.opacity = 1;
+    $pane.groupTransform.translate.x = currentIndex * -1 * device.screen.width;
     $paneCircles[currentIndex].style.fill = 'white';
   };
   $swipePlane.onmousedown = (evt) => {
     x = evt.screenX;
     y = evt.screenY;
   };
+  $swipePlane.onmousemove = (evt) => {
+    let xMove = evt.screenX - x;
+    if ($pane) {
+      $pane.groupTransform.translate.x =
+        currentIndex * -1 * device.screen.width + xMove * 1.5;
+    }
+  };
   $swipePlane.onmouseup = (evt) => {
     let yMove = evt.screenY - y;
     if (yMove < -60 && nextPage) {
       switchPage(nextPage);
+      return;
     }
 
     if (yMove > 60 && previousPage) {
       switchPage(previousPage);
+      return;
     }
 
     let xMove = evt.screenX - x;
     if (xMove < -60) {
       currentIndex++;
-      if (currentIndex >= $panes.length) {
-        currentIndex = 0;
+      if (currentIndex >= $paneCircles.length) {
+        currentIndex = $paneCircles.length - 1;
       }
     }
 
     if (xMove > 60) {
       currentIndex--;
       if (currentIndex < 0) {
-        currentIndex = $panes.length - 1;
+        currentIndex = 0;
       }
     }
 

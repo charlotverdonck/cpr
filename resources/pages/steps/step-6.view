@@ -1,22 +1,24 @@
 <svg viewport-fill="#000000">
-  <use class="pane" href="#step-visual">
-    <set href="number" attributeName="text-buffer" to="6" />
-    <set href="title" attributeName="text-buffer" to="_step 6 title" />
-    <set href="visual" attributeName="href" to="step-6-a.png" />
-    <set href="text" attributeName="text-buffer" to="_step 6 text a" />
-  </use>
-  <use class="pane" href="#step-visual">
-    <set href="number" attributeName="text-buffer" to="6" />
-    <set href="title" attributeName="text-buffer" to="_step 6 title" />
-    <set href="visual" attributeName="href" to="step-6-b.png" />
-    <set href="text" attributeName="text-buffer" to="_step 6 text b" />
-  </use>
-  <use class="pane" href="#step-visual">
-    <set href="number" attributeName="text-buffer" to="6" />
-    <set href="title" attributeName="text-buffer" to="_step 6 title" />
-    <set href="visual" attributeName="href" to="step-6-c.png" />
-    <set href="text" attributeName="text-buffer" to="_step 6 text c" />
-  </use>
+  <g id="pane" transform="translate(0,0)">
+    <use href="#step-visual" x="0%">
+      <set href="number" attributeName="text-buffer" to="6" />
+      <set href="title" attributeName="text-buffer" to="_step 6 title" />
+      <set href="visual" attributeName="href" to="step-6-a.png" />
+      <set href="text" attributeName="text-buffer" to="_step 6 text a" />
+    </use>
+    <use href="#step-visual" x="100%">
+      <set href="number" attributeName="text-buffer" to="6" />
+      <set href="title" attributeName="text-buffer" to="_step 6 title" />
+      <set href="visual" attributeName="href" to="step-6-b.png" />
+      <set href="text" attributeName="text-buffer" to="_step 6 text b" />
+    </use>
+    <use href="#step-visual" x="200%">
+      <set href="number" attributeName="text-buffer" to="6" />
+      <set href="title" attributeName="text-buffer" to="_step 6 title" />
+      <set href="visual" attributeName="href" to="step-6-c.png" />
+      <set href="text" attributeName="text-buffer" to="_step 6 text c" />
+    </use>
+  </g>
   <section id="dots" width="40" height="8" x="50%-20" y="100%-20">
     <circle fill="white" cx="0" cy="4" r="4" />
     <circle class="pane-circle" fill="black" cx="0" cy="4" r="3" />
