@@ -60,3 +60,33 @@ msgstr "Pinch the nose with your thumb and finger."
 
 msgid "step 6 text c"
 msgstr "Blow air into the mouth. Repeat thise one more time."
+
+msgid "cpr timer title"
+msgstr "CPR timer"
+
+msgid "cpr pump title"
+msgstr "Pump"
+
+msgid "cpr breath title"
+msgstr "Breath timer"
+
+msgid "cpr breath out title"
+msgstr "Breath out"
+
+msgid "cpr timer start"
+msgstr "Start"
+
+msgid "cpr timer done"
+msgstr "Done"
+
+msgid "cpr timer restart"
+msgstr "Restart"
+
+msgid "repeat CPR"
+msgstr "Repeat CPR"
+
+msgid "emergency arrived"
+msgstr "Emergency arrived"
+
+msgid "thank you"
+msgstr "Thank you for helping someone in need."

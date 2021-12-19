@@ -1,0 +1,9 @@
+<defs>
+  <symbol id="timer-sprite" href="#sprite-image" width="50" height="50">
+    <animate id="anim" attributeName="value" begin="enable" end="disable"
+        from="0" to="30" dur="18" final="restore"/>
+    <animate id="anim2" attributeName="value" begin="highlight" end="unhighlight"
+        from="28" to="30" dur="4" final="restore" />
+    <image href="../components/timer-sprite/timer_00.png" width="50" height="50" x="0" y="0" />
+  </symbol>
+</defs>

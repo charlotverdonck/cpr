@@ -60,3 +60,33 @@ msgstr "Knijp de neus dicht met je duim en wijsvinger."
 
 msgid "step 6 text c"
 msgstr "Blaas 2x 1 sec lucht in de mond."
+
+msgid "cpr timer title"
+msgstr "Reanimatie timer"
+
+msgid "cpr pump title"
+msgstr "Pomp"
+
+msgid "cpr breath title"
+msgstr "Beademing timer"
+
+msgid "cpr breath out title"
+msgstr "Adem uit"
+
+msgid "cpr timer start"
+msgstr "Start"
+
+msgid "cpr timer done"
+msgstr "Klaar"
+
+msgid "cpr timer restart"
+msgstr "Herstart"
+
+msgid "repeat CPR"
+msgstr "Herhaal reanimatie"
+
+msgid "emergency arrived"
+msgstr "112 arriveerde"
+
+msgid "thank you"
+msgstr "Bedankt om iemand te helpen in nood."

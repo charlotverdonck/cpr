@@ -12,5 +12,7 @@
     <link rel="import" href="components/button.gui" />
     <link rel="stylesheet" href="components/step-visual.css" />
     <link rel="import" href="components/step-visual.gui" />
+    <link rel="stylesheet" href="components/timer-sprite.css" />
+    <link rel="import" href="components/timer-sprite.gui" />
   </defs>
 </svg>

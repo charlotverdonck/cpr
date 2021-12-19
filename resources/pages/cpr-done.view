@@ -1,0 +1,11 @@
+<svg viewport-fill="#000000">
+  <use href="#button" fill="#FA4D61" x="10%" y="50%-54" width="80%" class="fill-up-button">
+    <set href="button-background" attributeName="fill" to="#FA4D61" />
+    <set href="text" attributeName="text-buffer" to="_repeat CPR" />
+    <set href="handle" attributeName="id" to="repeat-button" />
+  </use>
+  <use href="#button" fill="#FA4D61" x="10%" y="50%+6" width="80%">
+    <set href="text" attributeName="text-buffer" to="_emergency arrived" />
+    <set href="handle" attributeName="id" to="done-button" />
+  </use>
+</svg>

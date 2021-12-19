@@ -1,9 +1,59 @@
 <svg viewport-fill="#000000">
-  <textarea fill="#FF00FF" x="18" y="3" width="300" height="110" font-size="36" font-family="System-Regular" text-anchor="middle" text-buffer="REANIMATIE!" />
-  <text id="letter" fill="white" x="50%" y="100" width="300" font-size="36" font-family="System-Regular" text-anchor="middle" text-length="20" />
-  <text id="timestamp" fill="white" x="50%" y="150" width="300" font-size="36" font-family="System-Regular" text-anchor="middle" text-length="20" />
-  <use href="#button" fill="#FF00FF" x="10%" y="100%-90" width="80%">
-    <set href="text" attributeName="text-buffer" to="Back" />
-    <set href="handle" attributeName="id" to="back-button" />
+  <gradientRect id="animation-gradient" x="0" y="0" width="100%" height="100%"
+    gradient-type="radial"
+    gradient-x1="50%" gradient-y1="45%"
+    gradient-x2="150%" gradient-y2="150%"
+    gradient-color1="#41151A"
+    gradient-color2="#000000">
+    <animate attributeName="gradient-color1" begin="enable" end="disable" from="#FA4D4F" to="#41151A" dur="0.6" final="restore" repeatCount="30"/>
+    <animate attributeName="gradient-color1" begin="highlight" end="unhighlight" from="#41151A" to="#FA4D4F" dur="2" final="restore" repeatCount="2"/>
+  </gradientRect>
+
+  <!-- Titels -->
+  <textarea class="title" opacity="1" fill="#FFFFFF" x="10%" y="20" width="80%" height="30" font-size="20" font-family="System-Bold" text-transform="uppercase" text-anchor="middle" text-buffer="_cpr timer title">
+    <animate attributeName="opacity" begin="enable" end="disable" from="0" to="0" dur="18" final="restore" />
+    <animate attributeName="opacity" begin="highlight" end="unhighlight" from="0" to="0" dur="4" final="restore" />
+  </textarea>
+  <textarea class="title" opacity="0" fill="#FFFFFF" x="10%" y="20" width="80%" height="30" font-size="20" font-family="System-Bold" text-transform="uppercase" text-anchor="middle" text-buffer="_cpr pump title">
+    <animate attributeName="opacity" begin="enable" end="disable" from="1" to="0" dur="0.6" final="restore" repeatCount="30"/>
+  </textarea>
+  <textarea class="title" opacity="0" fill="#FFFFFF" x="10%" y="20" width="80%" height="30" font-size="20" font-family="System-Bold" text-transform="uppercase" text-anchor="middle" text-buffer="_cpr breath out title">
+    <animate attributeName="opacity" begin="highlight" end="unhighlight" from="0" to="1" dur="2" final="restore" repeatCount="2"/>
+  </textarea>
+
+  <!-- Arc - Background -->
+  <g transform="translate(50%, 45%)">
+    <arc x="-55" y="-55" width="110" height="110" fill="#ffffff" arc-width="10" start-angle="0" sweep-angle="360" />
+  </g>
+  <!-- Arc - transform animation -->
+  <g transform="translate(50%, 45%)">
+    <arc id="animation-arc" x="-55" y="-55" width="110" height="110" fill="#FA4D4F" arc-width="10" start-angle="0" sweep-angle="0">
+      <animate attributeName="sweep-angle" begin="enable" end="disable" from="0" to="360" dur="18" final="restore" />
+      <animate attributeName="sweep-angle" begin="highlight" end="unhighlight" from="0" to="360" dur="4" final="restore" />
+    </arc>
+  </g>
+  
+  <!-- Circle - Begining of arc (not animated) -->
+  <circle cx="50%" cy="45%-50" r="5" fill="#FA4D4F" />
+  
+  <!-- Circle - End of arc (follows arc sweep point) -->
+  <g id="animation-circle" transform="translate(50%, 45%)">
+    <animateTransform attributeType="rotate" from="0" to="360" begin="enable" end="disable" dur="18" final="restore"/>
+    <animateTransform attributeType="rotate" from="0" to="360" begin="highlight" end="unhighlight" dur="4" final="restore"/>
+    <circle cx="0" cy="-50" r="5" fill="#FA4D4F" />
+  </g>
+
+  <use id="animation-timer" href="#timer-sprite" x="50%-25" y="45%-25" />
+
+  <use id="start-button-container" href="#button" fill="#FA4D4F" x="25%" y="100%-90" width="50%">
+    <set href="text" attributeName="text-buffer" to="_cpr timer start" />
+    <set href="handle" attributeName="id" to="start-button" />
   </use>
+
+  <use id="done-button-container" href="#button" fill="#FA4D4F" x="25%" y="100%-90" width="50%">
+    <set href="text" attributeName="text-buffer" to="_cpr timer done" />
+    <set href="handle" attributeName="id" to="done-button" />
+  </use>
+
+  <textarea id="restart-button" pointer-events="visible" fill="#FA4D4F" x="10%" y="100%-30" width="80%" height="30" font-size="16" font-family="System-Bold" text-transform="uppercase" text-anchor="middle" text-buffer="_cpr timer restart" />
 </svg>
